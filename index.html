@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavan Ambekar - Portfolio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Courier New', monospace; background: #0a0a0a; color: #00ff00; line-height: 1.6; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+        .terminal { background: #000; border: 2px solid #00ff00; border-radius: 10px; padding: 20px; margin: 20px 0; }
+        .prompt { color: #00ff00; }
+        .command { color: #ffffff; }
+        h1, h2 { color: #00ff00; margin: 20px 0 10px; }
+        .section { margin: 30px 0; }
+        .project { background: #1a1a1a; padding: 15px; margin: 10px 0; border-left: 3px solid #00ff00; }
+        .skills { display: flex; flex-wrap: wrap; gap: 10px; }
+        .skill { background: #00ff00; color: #000; padding: 5px 10px; border-radius: 5px; }
+        a { color: #00ff00; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="terminal">
+            <div class="prompt">pavan@portfolio:~$ <span class="command">whoami</span></div>
+            <h1>Pavan Ambekar</h1>
+            <p>Computer Science Student | Software Developer | Problem Solver</p>
+        </div>
+
+        <div class="section">
+            <div class="prompt">pavan@portfolio:~$ <span class="command">cat about.txt</span></div>
+            <div class="terminal">
+                <p>I'm a passionate computer science student with hands-on experience in algorithms, data structures, and full-stack development. Currently building projects and practicing competitive programming on LeetCode.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="prompt">pavan@portfolio:~$ <span class="command">ls projects/</span></div>
+            <div class="project">
+                <h3>Bytecode Virtual Machine</h3>
+                <p>Built a complete bytecode VM with lexer, parser, and AST components in C++. Features include control flow, logical operations, and REPL interface.</p>
+                <p><strong>Tech:</strong> C++, Compiler Design, Virtual Machines</p>
+            </div>
+            
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>Terminal-themed portfolio website showcasing projects and skills. Built with modern web technologies and deployed on GitHub Pages.</p>
+                <p><strong>Tech:</strong> HTML, CSS, JavaScript, GitHub Pages</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="prompt">pavan@portfolio:~$ <span class="command">cat skills.txt</span></div>
+            <div class="terminal">
+                <div class="skills">
+                    <span class="skill">C++</span>
+                    <span class="skill">Java</span>
+                    <span class="skill">JavaScript</span>
+                    <span class="skill">Python</span>
+                    <span class="skill">Node.js</span>
+                    <span class="skill">SQL</span>
+                    <span class="skill">Git</span>
+                    <span class="skill">Linux</span>
+                    <span class="skill">Data Structures</span>
+                    <span class="skill">Algorithms</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="prompt">pavan@portfolio:~$ <span class="command">cat contact.txt</span></div>
+            <div class="terminal">
+                <p>📧 Email: pavanambekar2004@gmail.com</p>
+                <p>🔗 GitHub: <a href="https://github.com/pavan6851" target="_blank">github.com/pavan6851</a></p>
+                <p>💼 LinkedIn: <a href="#" target="_blank">Connect with me</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
